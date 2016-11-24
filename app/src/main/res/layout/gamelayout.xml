@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3460a3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtlevelshow"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="سطح انتخاب شما : "
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="match_parent"
+
+        android:layout_height="50sp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtinput"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/textinput"
+        android:gravity="center"
+        android:hint="عدد را حدس بزنید"
+        android:textAlignment="center"
+        android:textSize="23sp"
+
+        />
+
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/btnselect2"
+        android:text="انتخاب"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/btnselect"
+        android:text="بازگشت"
+        android:textSize="30sp"
+
+
+        />
+
+</LinearLayout>
