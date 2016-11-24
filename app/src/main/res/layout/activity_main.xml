@@ -12,6 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.shahabyari.arpaneteniac.tamrinjalase8_1.MainActivity">
 
+
     <TextView
         android:id="@+id/txttitle"
         android:layout_width="match_parent"
